@@ -1,0 +1,162 @@
+-----BEGIN SIGNED MESSAGE-----
+version: "4.0"
+issuer: "MapR Technologies, Inc."
+licType: Demo
+description: "MapR Enterprise Trial Edition"
+enforcement: HARD
+gracePeriod: 0
+issuedate: 1612209602
+expirationdate: 1614801602
+issuedateStr: "Mon Feb 01 20:00:02 UTC 2021"
+expdateStr: "Wed Mar 03 20:00:02 UTC 2021"
+capabilities {
+  feature: MULTI_CLUSTER
+  name: "Multiple Clusters Support"
+  permission: ALLOW
+}
+capabilities {
+  feature: MAXNODES
+  name: "Max Nodes in Cluster"
+  permission: ALLOW
+  featureData {
+    maxNodes: "unlimited"
+  }
+}
+capabilities {
+  feature: CLDB_HA
+  name: "CLDB HA"
+  permission: ALLOW
+}
+capabilities {
+  feature: SNAPSHOT
+  name: "Snapshots"
+  permission: ALLOW
+}
+capabilities {
+  feature: MIRRORING
+  name: "Mirroring"
+  permission: ALLOW
+}
+capabilities {
+  feature: DATA_PLACEMENT
+  name: "Data placement"
+  permission: ALLOW
+}
+capabilities {
+  feature: POSIX_CLIENT
+  name: "Posix Client"
+  permission: ALLOW
+  featureData {
+    maxNfsClientNodes: "10000"
+  }
+}
+capabilities {
+  feature: POSIX_CLIENT_GOLD
+  name: "MapR POSIX Client for Containerized Apps"
+  permission: ALLOW
+  featureData {
+    maxNfsClientNodes: "10000"
+  }
+}
+capabilities {
+  feature: POSIX_CLIENT_PLATINUM
+  name: "MapR POSIX Platinum Client"
+  permission: ALLOW
+  featureData {
+    maxNfsClientNodes: "10000"
+  }
+}
+capabilities {
+  feature: NFS
+  name: "NFS"
+  permission: ALLOW
+  featureData {
+    maxNfsNodes: "unlimited"
+  }
+}
+capabilities {
+  feature: NFS_MULTINODE
+  name: "NFS Multiple Nodes"
+  permission: ALLOW
+}
+capabilities {
+  feature: NFS_HA
+  name: "NFS HA"
+  permission: ALLOW
+}
+capabilities {
+  feature: JOBTRACKER_HA
+  name: "JobTracker HA"
+  permission: ALLOW
+}
+capabilities {
+  feature: OPTIMIZED_SHUFFLE
+  name: "Optimized Shuffle"
+  permission: ALLOW
+}
+capabilities {
+  feature: JM_CHARTS
+  name: "Job Management Charts"
+  permission: ALLOW
+}
+capabilities {
+  feature: JM_HISTOGRAMS
+  name: "Job Management Histograms"
+  permission: ALLOW
+}
+capabilities {
+  feature: MAPR_STREAMS
+  name: "MapR Streams"
+  permission: ALLOW
+}
+capabilities {
+  feature: MAPR_STREAMS_FULL
+  name: "MapR Streams Full"
+  permission: ALLOW
+}
+capabilities {
+  feature: MAPR_TABLES
+  name: "MapR Tables"
+  permission: ALLOW
+}
+capabilities {
+  feature: MAPR_TABLES_FULL
+  name: "MapR Tables Full"
+  permission: ALLOW
+}
+-----BEGIN DATA-----
+EgM0LjAqF01hcFIgVGVjaG5vbG9naWVzLCBJbmMuMAQ6HU1hcFIgRW50ZXJwcmlzZSBUcmlhbCBF
+ZGl0aW9uQAJIAFDCu+GABljC1f+BBmIcTW9uIEZlYiAwMSAyMDowMDowMiBVVEMgMjAyMWocV2Vk
+IE1hciAwMyAyMDowMDowMiBVVEMgMjAyMaIBHwgEEhlNdWx0aXBsZSBDbHVzdGVycyBTdXBwb3J0
+GAOiAScIChIUTWF4IE5vZGVzIGluIENsdXN0ZXIYA1ILEgl1bmxpbWl0ZWSiAQ0IBRIHQ0xEQiBI
+QRgDogEPCAcSCVNuYXBzaG90cxgDogEPCAgSCU1pcnJvcmluZxgDogEUCAkSDkRhdGEgcGxhY2Vt
+ZW50GAOiARsIExIMUG9zaXggQ2xpZW50GANSBxoFMTAwMDCiATcIFRIoTWFwUiBQT1NJWCBDbGll
+bnQgZm9yIENvbnRhaW5lcml6ZWQgQXBwcxgDUgcaBTEwMDAwogEpCBYSGk1hcFIgUE9TSVggUGxh
+dGludW0gQ2xpZW50GANSBxoFMTAwMDCiARYIARIDTkZTGANSCwoJdW5saW1pdGVkogEYCAISEk5G
+UyBNdWx0aXBsZSBOb2RlcxgDogEMCAMSBk5GUyBIQRgDogETCAYSDUpvYlRyYWNrZXIgSEEYA6IB
+FwgLEhFPcHRpbWl6ZWQgU2h1ZmZsZRgDogEbCAwSFUpvYiBNYW5hZ2VtZW50IENoYXJ0cxgDogEf
+CA0SGUpvYiBNYW5hZ2VtZW50IEhpc3RvZ3JhbXMYA6IBEggXEgxNYXBSIFN0cmVhbXMYA6IBFwgY
+EhFNYXBSIFN0cmVhbXMgRnVsbBgDogERCA4SC01hcFIgVGFibGVzGAOiARYIDxIQTWFwUiBUYWJs
+ZXMgRnVsbBgD
+-----BEGIN SIGNATURE-----
+nH5UGRKKj9j1IHmgtx0Nt61MFD+Z9PXaK6kaRWUAUh3pcdSQ/krmWdCH5i1Ww/1MAbV8+phW1EEE
+bidwyhXYZDf9jzqpFHnaEZIIWnBCPzN4gqLCVjwOQzIIOsSIpfycsLpPPuByRarBAmvEHTbgm9Mm
+WVFAD/YueW5kK8j/AHai9bVg2SlgZ10BKsUEv/HRONCS1GOReI6K1Ro0+4k0WLhPiMvsogRoHUlt
+kq9QMJwjT4dpdAe2/Y8PFKNcfEqDNdsiyEHp/Zfc/aOUg7GwJ8emTvZxcRWRKvLQo4ST7NdiGMHO
+8vdtuiijKcFrV/AJTr7oAxTmqjUM06S+BjJ6NuPNb8cRdBW8C/mVMwdQN+8COWe6M1k6TeqQojj8
+jp162qbxOLF57Gc4B7vwW+/ip/dDLOmsxv9AH0azhQIpVVOd3l1NSWhCqbeUqTdCvYlOl3KLWux9
+y4nalT+kTM6VezkwsNTXZ0oUf8ktM4RQjLDIOTmHXpZW1mORTyl0FneE3AVmYc0lNFQM1PPjrJXg
+j6wS1GqGWzF4VeJQekZ6NwX0PgdOUS4tKs9WH9jimmjhCBBx/ZpAjQvcxGVRNXJlqj2Ek3wwwqOH
+gK9wIuPExatGRTJ9fdGCzTVKsIYXzWVaZjUFIgcgEx1OHq/5iwgZ+R5sIkh0v3Emqt/XQ7GtzF6c
+8bmfdtuPxnd3VZ9YQGlmrw94CF79ci2QMPbLgrlxkefocb3cectres3CQPqsJVhJo+HZ0RxiUaeD
+Qco9mliDLj8v3zfDy8E4D5qyTWbzhiVe50hvsXMTr7/1tcic4FkpaNh6kW1vcd+1Y24/lQZte5Ny
+OcwXrPenYqyf/OFpueJcjC2QJAzsTI/uv7fgigA4Kp64UESFrsq7CQ2Trx4RXKILMToHKno07H0j
+H3lkzppoiZyOpwLpj556NMv9RuQW9v6Fuznya+d65LmCld1A/5R9+rPo3DPcxIdWTe9BnWeamvhk
+o0o0ZZZ/4i/coOHhyxTelHKCzwELfytDNfZq+9mo1WsirSmme0Tdi26DBDEz2NZTDZvLfvSqItDl
+trp9q8rXTVs/XgC/MYEgEEyKmTBHmejV1tlDmPjtceGy+vP4tg39/J18r2Ssw5ixfx+MzqIh/eqH
+XmRRO7vGZ8RNxRHfhh6vyCbp1nKETklqF36YQ9St3bwyQhcJ2yNES5DlSNYhAH8OODeGhMJVpQVX
+VZQHFfJ/pi5++M/qCZxg2F3vEg5mN3rniNVVA6cSqAY6uf+E1/frWaz2CIjzR3bNlqp00WjH31YD
+MAMPQmKyGumH4akvsz1L5HdZGeaFu+27t2toGt3HZF49+MHv3/vP2zmzkdtBS/rbLrcGksS8gg==
+-----END SIGNATURE-----
+4mNouB5wN+sc6CMOm6wZmbnFNDQ=
+-----END MESSAGE HASH-----
