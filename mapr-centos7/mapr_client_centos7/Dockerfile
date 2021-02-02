@@ -1,4 +1,4 @@
-FROM mapr_base_centos7:6.1.0
+FROM mapr_base_centos7:
 
 # This file contains an alternative Yum repository for the build
 COPY REPOSITORY /home/mapr/REPOSITORY 

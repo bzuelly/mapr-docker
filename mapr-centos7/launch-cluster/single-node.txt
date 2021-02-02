@@ -1,0 +1,2 @@
+0 fileserver 
+1 single-node collectd fileserver cldb nodemanager resourcemanager historyserver spark-historyserver webserver opentsdb zookeeper hivemetastore hiveserver2 kafka hbase drill

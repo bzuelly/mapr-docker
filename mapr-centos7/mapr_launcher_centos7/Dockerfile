@@ -1,4 +1,4 @@
-FROM mapr_client_centos7:6.1.0
+FROM mapr_client_centos7:
 
 RUN : && \
  yum install -y \

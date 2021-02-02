@@ -1,11 +1,11 @@
-FROM mapr_server_centos7:6.1.0
+FROM mapr_server_centos7:
  
 COPY REPOSITORY /home/mapr/REPOSITORY
 COPY mapr_mep.repo /etc/yum.repos.d/
 
 # Set up mapr repositories for install 
-#  sed -i -e "s/\/releases\/v.*\/redhat/\/releases\/v6.1.0\/redhat/" /etc/yum.repos.d/mapr_core.repo && \
-#  sed -i -e "s/\/MEP\/MEP-.*\/redhat/\/MEP\/MEP-6.2.0\/redhat/" /etc/yum.repos.d/mapr_mep.repo && \
+#  sed -i -e "s/\/releases\/v.*\/redhat/\/releases\/v\/redhat/" /etc/yum.repos.d/mapr_core.repo && \
+#  sed -i -e "s/\/MEP\/MEP-.*\/redhat/\/MEP\/MEP-\/redhat/" /etc/yum.repos.d/mapr_mep.repo && \
 RUN \
   mkdir -p /home/mapr/tmp && \
   CORE_REPO=$(grep -i core /home/mapr/REPOSITORY | tr -s ' ' | cut -f 2 -d ' ') && \
