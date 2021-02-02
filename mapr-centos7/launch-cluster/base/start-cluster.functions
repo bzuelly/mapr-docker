@@ -646,7 +646,8 @@ start_cluster()
 install_license()
 {
   verbose "=== ${FUNCNAME[0]} $@ ==="
-  sshpass -p "mapr" ssh $SSHOPTS $clusterNode 'curl -o license.txt "http://alerner:alerner4mapr!@stage.mapr.com/license/LatestDemoLicense-M7.txt"'
+  ###sshpass -p "mapr" ssh $SSHOPTS $clusterNode 'curl -o license.txt "http://alerner:alerner4mapr!@stage.mapr.com/license/LatestDemoLicense-M7.txt"'
+  sshpass -p "mapr" ssh $SSHOPTS $clusterNode 'curl -o license.txt https://raw.githubusercontent.com/bzuelly/mapr-docker/master/LatestDemoLicense-M5.txt"'
   sshpass -p "mapr" ssh $SSHOPTS $clusterNode 'maprcli license add -license license.txt -is_file true'
 }
 
