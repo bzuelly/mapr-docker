@@ -1,4 +1,4 @@
-#license txt download path
+# license txt download path
 Edit line 650 mapr-centos7/launch-cluster/base/start-cluster.functions to change the license txt download path
 # mapr-docker
 Docker environment to build containers, and run a multi-node MapR cluster on a single docker host.
