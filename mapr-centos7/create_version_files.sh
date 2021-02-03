@@ -54,7 +54,7 @@ create_version_files() {
 	#export CENTOS_VER=7.2.1511
 	#export CENTOS_VER=7.3.1611
 	#export CENTOS_VER=7.4.1708
-	export CENTOS_VER=7.5.1804
+	export CENTOS_VER=7.8.2003
 	export MAPR_HADOOP_VER=2.7.0
 	export MAPR_MARIADBCLI_VER=1.5.5
 	EOF

@@ -14,11 +14,11 @@ tar xzvf docker-mapr-centos7.*.tgz
 
 # Download desired MapR Core and MEP versions
 # build_all_versions will build docker images for every combination of Core and MEP
-curl -O http://package.mapr.com/releases/v5.2.1/redhat/mapr-v5.2.1GA.rpm.tgz
-curl -O http://package.mapr.com/releases/v5.2.2/redhat/mapr-v5.2.2GA.rpm.tgz
-curl -O http://package.mapr.com/releases/MEP/MEP-1.1.3/redhat/mapr-mep-v1.1.3.201708071547.rpm.tgz
-curl -O http://package.mapr.com/releases/MEP/MEP-2.0.2/redhat/mapr-mep-v2.0.2.201708071538.rpm.tgz
-curl -O http://package.mapr.com/releases/MEP/MEP-3.0.1/redhat/mapr-mep-v3.0.1.201708071527.rpm.tgz
+curl -O http://package.mapr.com/releases/MEP/MEP-6.2.0/redhat/mapr-mep-v6.2.0.201905272218.rpm.tgz
+
+curl -O http://package.mapr.com/releases/v6.1.0/redhat/mapr-v6.1.0GA.rpm.tgz
+
+
 
 cd mapr-centos7
 rm -rf versions/*

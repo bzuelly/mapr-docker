@@ -1,4 +1,4 @@
-FROM centos:6.7
+FROM centos:centos7.8.2003
 
 RUN echo 'root:mapr' | chpasswd 
 #RUN chkconfig iptables off && \

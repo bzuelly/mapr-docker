@@ -1,3 +1,3 @@
 #!/bin/bash
 
-time docker build -t $(basename $(pwd)):5.6 .
+time docker build -t $(basename $(pwd)):10.5 .
