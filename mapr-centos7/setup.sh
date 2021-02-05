@@ -22,7 +22,7 @@ curl -O http://package.mapr.com/releases/v6.1.0/redhat/mapr-v6.1.0GA.rpm.tgz
 
 
 
-cd mapr-centos7
+#remove versions folder
 rm -rf versions/*
 
 #SYSCTLFILE=/usr/lib/sysctl.d/60-aml-mapr-docker.conf
