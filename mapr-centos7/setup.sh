@@ -7,23 +7,23 @@ setenforce 0
 yum -y install wget screen createrepo bc epel-release jq
 yum -y install sshpass
 
-mkdir docker
-mv docker-mapr-centos7.*.tgz docker
-cd docker
-tar xzvf docker-mapr-centos7.*.tgz
+###install docker required packages
+sudo yum -y install yum-utils device-mapper-persistent-data lvm2
+
+sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+
+sudo yum -y install docker-ce
+sudo systemctl enable docker && sudo systemctl start docker
 
 # Download desired MapR Core and MEP versions
 # build_all_versions will build docker images for every combination of Core and MEP
 curl -O http://package.mapr.com/releases/MEP/MEP-6.2.0/redhat/mapr-mep-v6.2.0.201905272218.rpm.tgz
-
 curl -O http://package.mapr.com/releases/v6.1.0/redhat/mapr-v6.1.0GA.rpm.tgz
 
 
 
 cd mapr-centos7
 rm -rf versions/*
-
-yum -y install xauth
 
 #SYSCTLFILE=/usr/lib/sysctl.d/60-aml-mapr-docker.conf
 SYSCTLFILE=/etc/sysctl.conf
@@ -46,10 +46,8 @@ if [[ -b $BLOCKDEV ]]; then
   chmod 755 /var/lib/docker 
 fi
 
-yum -y install docker
+
 sed -i -e "s/^OPTIONS='--selinux-enabled /OPTIONS='/" /etc/sysconfig/docker
-systemctl start docker
-docker ps
-systemctl enable docker
+
 ./build_all_versions.sh 2>&1 | tee build_all_versions.out
 
