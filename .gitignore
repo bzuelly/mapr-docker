@@ -1,0 +1,5 @@
+*.tgz
+/mapr-centos7/mapr_mep_repo/public_html/*
+/mapr-centos7/_NoLongerUsed/*
+/mapr-centos7/mapr_core_repo/public_html/*
+/mapr-centos7/mapr_mep_repo/public_html/*

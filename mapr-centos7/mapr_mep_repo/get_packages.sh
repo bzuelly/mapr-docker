@@ -1,6 +1,8 @@
 #!/bin/bash
-MAPR_MEP_VER=$1
-MAPR_MEP_BUILDDATE=$2
+#MAPR_MEP_VER=$1
+#MAPR_MEP_BUILDDATE=$2
+
+. ../version.sh
 
 mkdir -p ./public_html/releases/pub
 wget -P ./public_html/releases/pub/ http://package.mapr.com/releases/pub/maprgpg.key

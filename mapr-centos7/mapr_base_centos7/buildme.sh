@@ -1,6 +1,8 @@
 #!/bin/bash
 
 . ../version.sh
+#MAPR_CORE_VER=6.1.0
+#CENTOS_VER=7.8.2003
 
 sed -e"s/CENTOS_VER/$CENTOS_VER/" \
     Dockerfile.template > Dockerfile

@@ -1,5 +1,5 @@
 #FROM centos7:7.2.1511.systemd
-FROM centos/systemd:latest
+FROM centos7:7.8.2003.systemd
 
 # Ensure common mapr uid for all descendents, client and server.
 # Provide root passwordless ssh between all descendents.

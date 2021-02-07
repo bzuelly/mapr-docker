@@ -1,5 +1,6 @@
 #!/bin/bash
-MAPR_CORE_VER=6.1.0
+#MAPR_CORE_VER=6.1.0
+. ../version.sh
 
 mkdir -p ./public_html/releases/pub
 wget -P ./public_html/releases/pub/ http://package.mapr.com/releases/pub/maprgpg.key
@@ -14,8 +15,8 @@ fi
 
 if [[ "$MAPR_CORE_VER" = "6.1.0" ]]; then
   mkdir -p ./public_html/releases/v6.1.0/redhat
-  tar xzvf mapr-v${MAPR_CORE_VER}GA.rpm.tgz -C ./public_html/releases/v5.6.0/redhat
-  cd ./public_html/releases/v5.6.0/redhat
+  tar xzvf mapr-v${MAPR_CORE_VER}GA.rpm.tgz -C ./public_html/releases/v${MAPR_CORE_VER}/redhat
+  cd ./public_html/releases/v${MAPR_CORE_VER}/redhat
   createrepo .
   cd -
 elif [[ "$MAPR_CORE_VER" = "5.2.1" ]]; then
