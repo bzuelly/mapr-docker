@@ -1,0 +1,163 @@
+-----BEGIN SIGNED MESSAGE-----
+version: "4.0"
+issuer: "MapR Technologies, Inc."
+licType: Demo
+description: "MapR Enterprise Trial Edition"
+enforcement: HARD
+gracePeriod: 2592000
+issuedate: 1612641602
+expirationdate: 1615233602
+issuedateStr: "Sat Feb 06 20:00:02 UTC 2021"
+expdateStr: "Mon Mar 08 20:00:02 UTC 2021"
+capabilities {
+  feature: MULTI_CLUSTER
+  name: "Multiple Clusters Support"
+  permission: ALLOW
+}
+capabilities {
+  feature: MAXNODES
+  name: "Max Nodes in Cluster"
+  permission: ALLOW
+  featureData {
+    maxNodes: "unlimited"
+  }
+}
+capabilities {
+  feature: CLDB_HA
+  name: "CLDB HA"
+  permission: ALLOW
+}
+capabilities {
+  feature: SNAPSHOT
+  name: "Snapshots"
+  permission: ALLOW
+}
+capabilities {
+  feature: MIRRORING
+  name: "Mirroring"
+  permission: ALLOW
+}
+capabilities {
+  feature: DATA_PLACEMENT
+  name: "Data placement"
+  permission: ALLOW
+}
+capabilities {
+  feature: POSIX_CLIENT
+  name: "Posix Client"
+  permission: ALLOW
+  featureData {
+    maxNfsClientNodes: "10000"
+  }
+}
+capabilities {
+  feature: POSIX_CLIENT_GOLD
+  name: "MapR POSIX Client for Containerized Apps"
+  permission: ALLOW
+  featureData {
+    maxNfsClientNodes: "10000"
+  }
+}
+capabilities {
+  feature: POSIX_CLIENT_PLATINUM
+  name: "MapR POSIX Platinum Client"
+  permission: ALLOW
+  featureData {
+    maxNfsClientNodes: "10000"
+  }
+}
+capabilities {
+  feature: NFS
+  name: "NFS"
+  permission: ALLOW
+  featureData {
+    maxNfsNodes: "unlimited"
+  }
+}
+capabilities {
+  feature: NFS_MULTINODE
+  name: "NFS Multiple Nodes"
+  permission: ALLOW
+}
+capabilities {
+  feature: NFS_HA
+  name: "NFS HA"
+  permission: ALLOW
+}
+capabilities {
+  feature: JOBTRACKER_HA
+  name: "JobTracker HA"
+  permission: ALLOW
+}
+capabilities {
+  feature: OPTIMIZED_SHUFFLE
+  name: "Optimized Shuffle"
+  permission: ALLOW
+}
+capabilities {
+  feature: JM_CHARTS
+  name: "Job Management Charts"
+  permission: ALLOW
+}
+capabilities {
+  feature: JM_HISTOGRAMS
+  name: "Job Management Histograms"
+  permission: ALLOW
+}
+capabilities {
+  feature: MAPR_TABLES
+  name: "MapR Tables"
+  permission: ALLOW
+}
+capabilities {
+  feature: MAPR_TABLES_FULL
+  name: "MapR Tables Full"
+  permission: ALLOW
+}
+capabilities {
+  feature: MAPR_STREAMS
+  name: "MapR Streams"
+  permission: ALLOW
+}
+capabilities {
+  feature: MAPR_STREAMS_FULL
+  name: "MapR Streams Full"
+  permission: ALLOW
+}
+modules: "hadoop,database,streams"
+-----BEGIN DATA-----
+EgM0LjAqF01hcFIgVGVjaG5vbG9naWVzLCBJbmMuMAQ6HU1hcFIgRW50ZXJwcmlzZSBUcmlhbCBF
+ZGl0aW9uQAJIgJqeAVDC6vuABljChJqCBmIcU2F0IEZlYiAwNiAyMDowMDowMiBVVEMgMjAyMWoc
+TW9uIE1hciAwOCAyMDowMDowMiBVVEMgMjAyMaIBHwgEEhlNdWx0aXBsZSBDbHVzdGVycyBTdXBw
+b3J0GAOiAScIChIUTWF4IE5vZGVzIGluIENsdXN0ZXIYA1ILEgl1bmxpbWl0ZWSiAQ0IBRIHQ0xE
+QiBIQRgDogEPCAcSCVNuYXBzaG90cxgDogEPCAgSCU1pcnJvcmluZxgDogEUCAkSDkRhdGEgcGxh
+Y2VtZW50GAOiARsIExIMUG9zaXggQ2xpZW50GANSBxoFMTAwMDCiATcIFRIoTWFwUiBQT1NJWCBD
+bGllbnQgZm9yIENvbnRhaW5lcml6ZWQgQXBwcxgDUgcaBTEwMDAwogEpCBYSGk1hcFIgUE9TSVgg
+UGxhdGludW0gQ2xpZW50GANSBxoFMTAwMDCiARYIARIDTkZTGANSCwoJdW5saW1pdGVkogEYCAIS
+Ek5GUyBNdWx0aXBsZSBOb2RlcxgDogEMCAMSBk5GUyBIQRgDogETCAYSDUpvYlRyYWNrZXIgSEEY
+A6IBFwgLEhFPcHRpbWl6ZWQgU2h1ZmZsZRgDogEbCAwSFUpvYiBNYW5hZ2VtZW50IENoYXJ0cxgD
+ogEfCA0SGUpvYiBNYW5hZ2VtZW50IEhpc3RvZ3JhbXMYA6IBEQgOEgtNYXBSIFRhYmxlcxgDogEW
+CA8SEE1hcFIgVGFibGVzIEZ1bGwYA6IBEggXEgxNYXBSIFN0cmVhbXMYA6IBFwgYEhFNYXBSIFN0
+cmVhbXMgRnVsbBgDsgEXaGFkb29wLGRhdGFiYXNlLHN0cmVhbXM=
+-----BEGIN SIGNATURE-----
+aIXWPl9xLFPBW/KjZSNNoBz7ykzklOgQCyiuyfsLXQ+6OR3cSUIwDdPg4bHUDjX9+fkt7G7lwdHn
+NcK/6urPNKFAaOXbv8GgfE2gdSn4CfjSfHB1MwMQXZtny1YRsxJQNEZn4Y48+F4h3lkWQScY3TUi
+ixveUZp5SDtq827m3b9Nn1RnC3n6qiwJzZ5+nbhYcXDtSrAgfxxbrxeGlBSatnBstIfgLOqrWg2n
+C/EmGSYnIjwa416X1sIA/HpZbcdGq3cRdlXesfnUthuUmGtbxvcptJ1pnl00/2vGj1F8rylKXuk4
+24Fo2lcrlkUdJ/mcWtK8BxhXOe8ZT2dyKRgfw/0J/tDVlAJ4u002Fzey3xVcXEzYoT+bJwFF+dUO
+InRA+Ew30eKMDZvMRy6c4T/8cVkUmdwF57cEaYxvu4K5661Hh2irTME0zFX6aJdT6U7+QcBlzpLC
+2E7Qfx13G5p3vnkG+LE/OFWDIBnwXR+0Or08eWXuJyzEjmmlMURgxLxcS6Lm6ucMxNgO9QzpGfuQ
+7XK1VzpMO1YhRbpCT0ex8t5mqtwvjzi5Y/U7SWDOpaOlBLX8CcOs3OOZWH4UkdCnJfT+BAPVwhuz
+yW6tMRJkVGbJSl63Zo/byOIuEnqWKBWuFY2Tv8l8SozKUVDd5VxGHgRWmCHd4dQuWnjI7jCLqAxB
+DOTiRNeUjiyYyiYAXEA+KMOZoh1LZ1vE4lqKcyO5y8C9xZLHFzHQZxQyXjAykr42deaqcPOtLAub
+3vwU8ZN6Nu10GKYAGYtL1vjzVR6podBbsFPgMlmS4V7w7PjIDeGjCO+mt5k3I97nnAPzvpT4LzJO
+iNHShM0mgm/mEKOcytx0JJ9s4Fhl0GSOB0vyFNVzWGr6z5Fy562Vfs3Wlao/+SsJSbpyFlltSUgr
+9ueI4CMbqND/xA2Hl5tTTsnSdIWbGfT0jDnFnqq4iwrgEZT9U5SOcG5gzH91gsl0y6M7JWa958nT
+ShwdCwOqpvT5hGCJYC3meRISZSVaUCypf226/l9ZrObKMoGQWh9druOPh6LszaZFV0CzSD6IvZaE
+AW5evkJ+t3NPRgmgAQXaICU2N1a1werVDSxNQF9jd6ead5WwLAzZ4UzMRCKsEhnzOi+4cTUt+7Tp
+rzw2rFUzX5I/JhvarxQdR5Vq9DRg69xvOO51Ax3m2NYs2nc98mSutTWQ4cAYYLLUwPZAUjMac+bW
+K+aEFF6cbBcDvtWqHqbk79e4uB9rhobwnXlidJbvOxO8WwKNdqjC8SBSLRS1R8dIIEniXeKZfk5j
+NiZOLgHKbeeJifJzGO5Gld2duHRYhPujBRSpE4kPgGnxjddwdBBWo6D5QDg5KIIlq/r+GjeZvQ==
+-----END SIGNATURE-----
+7M25G+Xr9p1CDZfye27h8LJszTU=
+-----END MESSAGE HASH-----
